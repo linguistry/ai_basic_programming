@@ -1,0 +1,562 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "AI Programming Class",
+    "section": "",
+    "text": "Preface\nThis material has been compiled for use in the AI Programming class of IGSE for Fall 2024. The materials are primarily targeted at linguistics students.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Constants and Variables in Python",
+    "section": "",
+    "text": "1.1 Variables in Python\nA variable is a named location in memory used to store data that can change during the execution of a program. Variables can hold different types of data, such as numbers, strings, or more complex data structures.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Constants and Variables in Python</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "2  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "References"
+    ]
+  },
+  {
+    "objectID": "intro.html#introduction",
+    "href": "intro.html#introduction",
+    "title": "1  Constants and Variables in Python",
+    "section": "",
+    "text": "1.1.1 Variables\nA variable is a named location in memory used to store data that can change during the execution of a program. Variables can hold different types of data, such as numbers, strings, or more complex data structures.\n\n\n1.1.2 Constants\nA constant is a value that does not change during the execution of a program. Python does not have a built-in way to define constants explicitly, but naming conventions are used to indicate that a variable should be treated as a constant.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Constants and Variables in Python</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#variables-in-python",
+    "href": "intro.html#variables-in-python",
+    "title": "1  Constants and Variables in Python",
+    "section": "",
+    "text": "1.1.1 Declaring Variables\nTo declare a variable in Python, you simply assign a value to a name using the assignment operator =. Python is dynamically typed, meaning you do not need to declare the type of the variable explicitly.\n# Variable declaration\nx = 10           # An integer variable\nname = \"Alice\"   # A string variable\npi = 3.14159     # A float variable\n\nprint(x)         # Output: 10\nprint(name)      # Output: Alice\nprint(pi)        # Output: 3.14159\n# Updating variable values\nx = 20           # Reassigning a new value to x\nname = \"Bob\"     # Changing the value of name\n\nprint(x)         # Output: 20\nprint(name)      # Output: Bob",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Constants and Variables in Python</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#constants-in-python",
+    "href": "intro.html#constants-in-python",
+    "title": "1  Constants and Variables in Python",
+    "section": "1.2 Constants in Python",
+    "text": "1.2 Constants in Python\nA constant is a value that does not change during the execution of a program. Python does not have a built-in way to define constants explicitly, but naming conventions are used to indicate that a variable should be treated as a constant.\n\n1.2.1 Defining Constants\nPython does not have a specific syntax for defining constants. However, by convention, constants are written in all uppercase letters, and these variables are not supposed to be modified.\n# Defining constants (by convention)\nMAX_SPEED = 120          # A constant integer\nGRAVITY = 9.81           # A constant float\nWELCOME_MESSAGE = \"Hello\" # A constant string\n\nprint(MAX_SPEED)         # Output: 120\nprint(GRAVITY)           # Output: 9.81\nprint(WELCOME_MESSAGE)   # Output: Hello",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Constants and Variables in Python</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#best-practices",
+    "href": "intro.html#best-practices",
+    "title": "1  Constants and Variables in Python",
+    "section": "1.4 Best Practices",
+    "text": "1.4 Best Practices\n\nUse descriptive names for variables and constants to make the code easy to understand.\nFollow naming conventions: lowercase with underscores for variables (my_variable), and all uppercase with underscores for constants (MY_CONSTANT).\nAvoid changing the values of constants in your code to maintain consistency.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Constants and Variables in Python</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#numeric-data-types",
+    "href": "intro.html#numeric-data-types",
+    "title": "1  Constants and Variables in Python",
+    "section": "2.1 Numeric Data Types",
+    "text": "2.1 Numeric Data Types\n\n2.1.1 Integer (int)\nIntegers are whole numbers, positive or negative, without decimals.\n# Integer example\nage = 25\nprint(age)        # Output: 25\nprint(type(age))  # Output: &lt;class 'int'&gt;\n\n\n2.1.2 Float (float)\nFloats represent numbers with decimal points.\n# Float example\nheight = 5.9\nprint(height)        # Output: 5.9\nprint(type(height))  # Output: &lt;class 'float'&gt;\n\n\n2.1.3 Complex (complex)\nComplex numbers consist of a real and an imaginary part.\n# Complex number example\nz = 3 + 4j\nprint(z)            # Output: (3+4j)\nprint(type(z))      # Output: &lt;class 'complex'&gt;",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Constants and Variables in Python</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#sequence-data-types",
+    "href": "intro.html#sequence-data-types",
+    "title": "1  Constants and Variables in Python",
+    "section": "2.2 Sequence Data Types",
+    "text": "2.2 Sequence Data Types\n\n2.2.1 String (str)\nStrings are sequences of characters enclosed in quotes.\n# String example\nname = \"Python\"\nprint(name)        # Output: Python\nprint(type(name))  # Output: &lt;class 'str'&gt;\n\n\n2.2.2 List (list)\nLists are ordered, mutable collections of items that can hold mixed data types.\n# List example\nfruits = [\"apple\", \"banana\", \"cherry\"]\nprint(fruits)        # Output: ['apple', 'banana', 'cherry']\nprint(type(fruits))  # Output: &lt;class 'list'&gt;\n\n2.2.2.1 List Indexing and Slicing\nIndexing allows you to access individual elements in a list using their position, while slicing lets you extract a sublist from a list.\n\n2.2.2.1.1 Indexing\nIndexing starts at 0. Negative indices can be used to access elements from the end of the list.\n# List indexing example\nfruits = ['apple', 'banana', 'cherry']\n\n# Accessing elements\nprint(fruits[0])  # Output: apple\nprint(fruits[-1]) # Output: cherry\n\n\n2.2.2.1.2 Slicing\nSlicing allows you to extract a range of elements. The syntax is list[start:end], where start is inclusive and end is exclusive.\n# List slicing example\nnumbers = [0, 1, 2, 3, 4, 5]\n\n# Extracting a sublist\nprint(numbers[1:4])   # Output: [1, 2, 3]\nprint(numbers[:3])    # Output: [0, 1, 2] (from the start to index 2)\nprint(numbers[3:])    # Output: [3, 4, 5] (from index 3 to the end)\nprint(numbers[-3:])   # Output: [3, 4, 5] (last three elements)\n\n\n\n2.2.2.2 Adding Elements to a List\nYou can add elements to a list using methods like append(), insert(), and extend().\n\n2.2.2.2.1 Using append()\nappend() adds an element to the end of the list.\n# Using append() to add an element\nnumbers = [1, 2, 3]\nnumbers.append(4)\nprint(numbers)  # Output: [1, 2, 3, 4]\n\n\n2.2.2.2.2 Using insert()\ninsert() adds an element at a specified position.\n# Using insert() to add an element at a specific position\nnumbers = [1, 3, 4]\nnumbers.insert(1, 2)  # Insert 2 at index 1\nprint(numbers)  # Output: [1, 2, 3, 4]\n\n\n2.2.2.2.3 Using extend()\nextend() adds multiple elements to the end of the list.\n# Using extend() to add multiple elements\nnumbers = [1, 2]\nnumbers.extend([3, 4, 5])\nprint(numbers)  # Output: [1, 2, 3, 4, 5]\n\n\n\n2.2.2.3 Modifying and Deleting List Elements\nYou can modify or remove elements from a list using index assignments, remove(), pop(), or del.\n\n2.2.2.3.1 Modifying Elements\nAssign a new value to an index to modify an element.\n# Modifying an element in the list\nnumbers = [1, 2, 3]\nnumbers[1] = 20\nprint(numbers)  # Output: [1, 20, 3]\n\n\n2.2.2.3.2 Deleting Elements\nUse remove() to delete an element by value, pop() to remove by index, or del to delete a slice.\n# Using remove() to delete by value\nnumbers = [1, 2, 3, 4]\nnumbers.remove(3)\nprint(numbers)  # Output: [1, 2, 4]\n\n# Using pop() to delete by index\nnumbers = [1, 2, 3, 4]\nremoved_element = numbers.pop(1)\nprint(numbers)  # Output: [1, 3, 4]\nprint(removed_element)  # Output: 2\n\n# Using del to delete by index or slice\nnumbers = [1, 2, 3, 4, 5]\ndel numbers[1:3]\nprint(numbers)  # Output: [1, 4, 5]\n\n\n\n2.2.2.4 Sorting Lists\nUse sort() to sort a list in place, or sorted() to return a new sorted list.\n# Sorting a list in ascending order\nnumbers = [3, 1, 4, 1, 5]\nnumbers.sort()\nprint(numbers)  # Output: [1, 1, 3, 4, 5]\n\n# Sorting a list in descending order\nnumbers.sort(reverse=True)\nprint(numbers)  # Output: [5, 4, 3, 1, 1]\n\n# Using sorted() to return a new sorted list\nnew_numbers = sorted(numbers)\nprint(new_numbers)  # Output: [1, 1, 3, 4, 5]\n\n\n\n2.2.3 3. Tuple (tuple)\nA tuple is an ordered, immutable collection of elements. Tuples are similar to lists but cannot be modified after creation.\n# Creating and accessing tuples\ncoordinates = (10, 20)\nprint(coordinates)        # Output: (10, 20)\nprint(coordinates[0])     # Output: 10\n\n# Tuples are immutable; attempting to modify will raise an error\n# coordinates[0] = 30  # This would cause an error",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Constants and Variables in Python</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#mapping-data-type",
+    "href": "intro.html#mapping-data-type",
+    "title": "1  Constants and Variables in Python",
+    "section": "2.3 Mapping Data Type",
+    "text": "2.3 Mapping Data Type\n\n2.3.1 Dictionary (dict)\nA dictionary is a collection of key-value pairs, where each key is unique. Dictionaries are mutable, allowing for dynamic updates.\n# Dictionary example\nperson = {\"name\": \"Alice\", \"age\": 30}\nprint(person)        # Output: {'name': 'Alice', 'age': 30}\nprint(type(person))  # Output: &lt;class 'dict'&gt;\n\n2.3.1.1 Accessing Values Using Keys\nAccess values in a dictionary using keys.\n# Accessing values using keys\nname = person[\"name\"]\nage = person.get(\"age\")\nprint(name)  # Output: Alice\nprint(age)   # Output: 30\n\n\n2.3.1.2 Adding and Removing Key-Value Pairs\nYou can add new key-value pairs or remove existing ones using methods like update(), del, or pop().\n\n2.3.1.2.1 Adding Key-Value Pairs\n# Adding new key-value pairs\nperson[\"city\"] = \"New York\"\nprint(person)  # Output: {'name': 'Alice', 'age': 30, 'city': 'New York'}\n\n\n2.3.1.2.2 Removing Key-Value Pairs\n# Removing a key-value pair using pop()\nremoved_value = person.pop(\"age\")\nprint(person)        # Output: {'name': 'Alice', 'city': 'New York'}\nprint(removed_value) # Output: 30\n\n# Removing a key-value pair using del\ndel person[\"city\"]\nprint(person)  # Output: {'name': 'Alice'}",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Constants and Variables in Python</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#set-data-types",
+    "href": "intro.html#set-data-types",
+    "title": "1  Constants and Variables in Python",
+    "section": "2.4 Set Data Types",
+    "text": "2.4 Set Data Types\n\n2.4.1 Set (set)\nSets are unordered collections of unique items.\n# Set example\nnumbers = {1, 2, 3, 4}\nprint(numbers)        # Output: {1, 2, 3, 4}\nprint(type(numbers))  # Output: &lt;class 'set'&gt;",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Constants and Variables in Python</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#boolean-data-type",
+    "href": "intro.html#boolean-data-type",
+    "title": "1  Constants and Variables in Python",
+    "section": "2.5 Boolean Data Type",
+    "text": "2.5 Boolean Data Type\n\n2.5.1 Boolean (bool)\nBooleans represent one of two values: True or False.\n# Boolean example\nis_active = True\nprint(is_active)        # Output: True\nprint(type(is_active))  # Output: &lt;class 'bool'&gt;",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Constants and Variables in Python</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#binary-data-types",
+    "href": "intro.html#binary-data-types",
+    "title": "1  Constants and Variables in Python",
+    "section": "2.6 Binary Data Types",
+    "text": "2.6 Binary Data Types\n\n2.6.1 1. Bytes (bytes)\nBytes represent binary data.\n# Bytes example\nbyte_data = b\"hello\"\nprint(byte_data)        # Output: b'hello'\nprint(type(byte_data))  # Output: &lt;class 'bytes'&gt;\n\n\n2.6.2 2. Bytearray (bytearray)\nBytearrays are mutable sequences of bytes.\n# Bytearray example\nbyte_array = bytearray(5)\nprint(byte_array)        # Output: bytearray(b'\\x00\\x00\\x00\\x00\\x00')\nprint(type(byte_array))  # Output: &lt;class 'bytearray'&gt;\n\n\n2.6.3 3. Memoryview (memoryview)\nMemoryview provides access to the memory of binary data without copying it.\n# Memoryview example\nmv = memoryview(byte_array)\nprint(mv)        # Output: &lt;memory at 0x...&gt;\nprint(type(mv))  # Output: &lt;class 'memoryview'&gt;",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Constants and Variables in Python</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#conclusion",
+    "href": "intro.html#conclusion",
+    "title": "1  Constants and Variables in Python",
+    "section": "2.7 Conclusion",
+    "text": "2.7 Conclusion\nUnderstanding Python’s data types allows you to choose the most appropriate type for storing and manipulating data in your programs. Each data type serves a specific purpose and has unique characteristics that make it suitable for different tasks. ```",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Constants and Variables in Python</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#f-string-formatting-in-python",
+    "href": "intro.html#f-string-formatting-in-python",
+    "title": "1  Constants and Variables in Python",
+    "section": "2.6 f-string Formatting in Python",
+    "text": "2.6 f-string Formatting in Python\nf-strings, introduced in Python 3.6, are a modern and powerful way to format strings. They offer a concise and readable syntax, allowing you to embed expressions directly inside string literals by prefixing the string with the letter f or F.\nf-strings make string formatting simpler and more intuitive compared to older methods such as % formatting or the str.format() method. They allow for inline expression evaluation, formatting of numbers, and easy manipulation of string data.\n\n2.6.1 Embedding Variables\nTo use f-strings, simply place an f before the opening quote of the string and include expressions inside curly braces {}.\n# Basic usage of f-string\nname = \"Alice\"\nage = 30\n\n# Embedding variables in a string\ngreeting = f\"Hello, {name}! You are {age} years old.\"\nprint(greeting)  # Output: Hello, Alice! You are 30 years old.\n\n\n2.6.2 Inline Expressions\nf-strings allow you to include any valid Python expression inside the curly braces.\n# Using expressions inside f-strings\nx = 10\ny = 5\n\n# Inline arithmetic expression\nresult = f\"{x} + {y} = {x + y}\"\nprint(result)  # Output: 10 + 5 = 15",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Constants and Variables in Python</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#basic-f-string-usage",
+    "href": "intro.html#basic-f-string-usage",
+    "title": "1  Constants and Variables in Python",
+    "section": "2.7 Basic f-string Usage",
+    "text": "2.7 Basic f-string Usage\n\n2.7.1 Embedding Variables\nTo use f-strings, simply place an f before the opening quote of the string and include expressions inside curly braces {}.\n# Basic usage of f-string\nname = \"Alice\"\nage = 30\n\n# Embedding variables in a string\ngreeting = f\"Hello, {name}! You are {age} years old.\"\nprint(greeting)  # Output: Hello, Alice! You are 30 years old.\n\n\n2.7.2 Inline Expressions\nf-strings allow you to include any valid Python expression inside the curly braces.\n# Using expressions inside f-strings\nx = 10\ny = 5\n\n# Inline arithmetic expression\nresult = f\"{x} + {y} = {x + y}\"\nprint(result)  # Output: 10 + 5 = 15",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Constants and Variables in Python</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#advanced-formatting-with-f-strings",
+    "href": "intro.html#advanced-formatting-with-f-strings",
+    "title": "1  Constants and Variables in Python",
+    "section": "2.7 Advanced Formatting with f-strings",
+    "text": "2.7 Advanced Formatting with f-strings\n\n2.7.1 Number Formatting\nf-strings provide options to format numbers in various ways, such as controlling decimal places, adding commas, or displaying percentages.\n\n2.7.1.1 Formatting Floats\nYou can specify the number of decimal places by using .nf, where n is the number of decimal places.\n# Formatting a float to 2 decimal places\npi = 3.14159265358979\nformatted_pi = f\"Pi rounded to 2 decimal places: {pi:.2f}\"\nprint(formatted_pi)  # Output: Pi rounded to 2 decimal places: 3.14\n\n\n2.7.1.2 Adding Commas to Large Numbers\nUse the :, format specifier to include commas as thousand separators.\n# Adding commas to large numbers\nlarge_number = 1000000\nformatted_number = f\"The number is: {large_number:,}\"\nprint(formatted_number)  # Output: The number is: 1,000,000\n\n\n2.7.1.3 Displaying Percentages\nTo display a number as a percentage, use the % format specifier.\n# Displaying a percentage\nsuccess_rate = 0.85\nformatted_rate = f\"Success rate: {success_rate:.2%}\"\nprint(formatted_rate)  # Output: Success rate: 85.00%\n\n\n\n2.7.2 Embedding Dictionary Values\nf-strings can also be used to format values from dictionaries.\n# Formatting dictionary values\nperson = {\"name\": \"Bob\", \"age\": 40}\nformatted_string = f\"{person['name']} is {person['age']} years old.\"\nprint(formatted_string)  # Output: Bob is 40 years old.\nEnd.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Constants and Variables in Python</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#using-f-strings-with-functions",
+    "href": "intro.html#using-f-strings-with-functions",
+    "title": "1  Constants and Variables in Python",
+    "section": "2.9 Using f-strings with Functions",
+    "text": "2.9 Using f-strings with Functions\nYou can call functions within f-strings, making it possible to format data dynamically.\n# Using functions inside f-strings\ndef square(x):\n    return x * x\n\nnumber = 7\nformatted_function = f\"The square of {number} is {square(number)}.\"\nprint(formatted_function)  # Output: The square of 7 is 49.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Constants and Variables in Python</span>"
+    ]
+  },
+  {
+    "objectID": "01.intro.html",
+    "href": "01.intro.html",
+    "title": "1  Constants and Variables in Python",
+    "section": "",
+    "text": "1.1 Variables in Python\nA variable is a named location in memory used to store data that can change during the execution of a program. Variables can hold different types of data, such as numbers, strings, or more complex data structures.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Constants and Variables in Python</span>"
+    ]
+  },
+  {
+    "objectID": "01.intro.html#variables-in-python",
+    "href": "01.intro.html#variables-in-python",
+    "title": "1  Constants and Variables in Python",
+    "section": "",
+    "text": "1.1.1 Declaring Variables\nTo declare a variable in Python, you simply assign a value to a name using the assignment operator =. Python is dynamically typed, meaning you do not need to declare the type of the variable explicitly.\n# Variable declaration\nx = 10           # An integer variable\nname = \"Alice\"   # A string variable\npi = 3.14159     # A float variable\n\nprint(x)         # Output: 10\nprint(name)      # Output: Alice\nprint(pi)        # Output: 3.14159\n# Updating variable values\nx = 20           # Reassigning a new value to x\nname = \"Bob\"     # Changing the value of name\n\nprint(x)         # Output: 20\nprint(name)      # Output: Bob",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Constants and Variables in Python</span>"
+    ]
+  },
+  {
+    "objectID": "01.intro.html#constants-in-python",
+    "href": "01.intro.html#constants-in-python",
+    "title": "1  Constants and Variables in Python",
+    "section": "1.2 Constants in Python",
+    "text": "1.2 Constants in Python\nA constant is a value that does not change during the execution of a program. Python does not have a built-in way to define constants explicitly, but naming conventions are used to indicate that a variable should be treated as a constant.\n\n1.2.1 Defining Constants\nPython does not have a specific syntax for defining constants. However, by convention, constants are written in all uppercase letters, and these variables are not supposed to be modified.\n# Defining constants (by convention)\nMAX_SPEED = 120          # A constant integer\nGRAVITY = 9.81           # A constant float\nWELCOME_MESSAGE = \"Hello\" # A constant string\n\nprint(MAX_SPEED)         # Output: 120\nprint(GRAVITY)           # Output: 9.81\nprint(WELCOME_MESSAGE)   # Output: Hello",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Constants and Variables in Python</span>"
+    ]
+  },
+  {
+    "objectID": "01.intro.html#numeric-data-types",
+    "href": "01.intro.html#numeric-data-types",
+    "title": "1  Constants and Variables in Python",
+    "section": "2.1 Numeric Data Types",
+    "text": "2.1 Numeric Data Types\n\n2.1.1 Integer (int)\nIntegers are whole numbers, positive or negative, without decimals.\n# Integer example\nage = 25\nprint(age)        # Output: 25\nprint(type(age))  # Output: &lt;class 'int'&gt;\n\n\n2.1.2 Float (float)\nFloats represent numbers with decimal points.\n# Float example\nheight = 5.9\nprint(height)        # Output: 5.9\nprint(type(height))  # Output: &lt;class 'float'&gt;\n\n\n2.1.3 Complex (complex)\nComplex numbers consist of a real and an imaginary part.\n# Complex number example\nz = 3 + 4j\nprint(z)            # Output: (3+4j)\nprint(type(z))      # Output: &lt;class 'complex'&gt;",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Constants and Variables in Python</span>"
+    ]
+  },
+  {
+    "objectID": "01.intro.html#sequence-data-types",
+    "href": "01.intro.html#sequence-data-types",
+    "title": "1  Constants and Variables in Python",
+    "section": "2.2 Sequence Data Types",
+    "text": "2.2 Sequence Data Types\n\n2.2.1 String (str)\nStrings are sequences of characters enclosed in quotes.\n# String example\nname = \"Python\"\nprint(name)        # Output: Python\nprint(type(name))  # Output: &lt;class 'str'&gt;\n\n\n2.2.2 List (list)\nLists are ordered, mutable collections of items that can hold mixed data types.\n# List example\nfruits = [\"apple\", \"banana\", \"cherry\"]\nprint(fruits)        # Output: ['apple', 'banana', 'cherry']\nprint(type(fruits))  # Output: &lt;class 'list'&gt;\n\n2.2.2.1 List Indexing and Slicing\nIndexing allows you to access individual elements in a list using their position, while slicing lets you extract a sublist from a list.\n\n2.2.2.1.1 Indexing\nIndexing starts at 0. Negative indices can be used to access elements from the end of the list.\n# List indexing example\nfruits = ['apple', 'banana', 'cherry']\n\n# Accessing elements\nprint(fruits[0])  # Output: apple\nprint(fruits[-1]) # Output: cherry\n\n\n2.2.2.1.2 Slicing\nSlicing allows you to extract a range of elements. The syntax is list[start:end], where start is inclusive and end is exclusive.\n# List slicing example\nnumbers = [0, 1, 2, 3, 4, 5]\n\n# Extracting a sublist\nprint(numbers[1:4])   # Output: [1, 2, 3]\nprint(numbers[:3])    # Output: [0, 1, 2] (from the start to index 2)\nprint(numbers[3:])    # Output: [3, 4, 5] (from index 3 to the end)\nprint(numbers[-3:])   # Output: [3, 4, 5] (last three elements)\n\n\n\n2.2.2.2 Adding Elements to a List\nYou can add elements to a list using methods like append(), insert(), and extend().\n\n2.2.2.2.1 Using append()\nappend() adds an element to the end of the list.\n# Using append() to add an element\nnumbers = [1, 2, 3]\nnumbers.append(4)\nprint(numbers)  # Output: [1, 2, 3, 4]\n\n\n2.2.2.2.2 Using insert()\ninsert() adds an element at a specified position.\n# Using insert() to add an element at a specific position\nnumbers = [1, 3, 4]\nnumbers.insert(1, 2)  # Insert 2 at index 1\nprint(numbers)  # Output: [1, 2, 3, 4]\n\n\n2.2.2.2.3 Using extend()\nextend() adds multiple elements to the end of the list.\n# Using extend() to add multiple elements\nnumbers = [1, 2]\nnumbers.extend([3, 4, 5])\nprint(numbers)  # Output: [1, 2, 3, 4, 5]\n\n\n\n2.2.2.3 Modifying and Deleting List Elements\nYou can modify or remove elements from a list using index assignments, remove(), pop(), or del.\n\n2.2.2.3.1 Modifying Elements\nAssign a new value to an index to modify an element.\n# Modifying an element in the list\nnumbers = [1, 2, 3]\nnumbers[1] = 20\nprint(numbers)  # Output: [1, 20, 3]\n\n\n2.2.2.3.2 Deleting Elements\nUse remove() to delete an element by value, pop() to remove by index, or del to delete a slice.\n# Using remove() to delete by value\nnumbers = [1, 2, 3, 4]\nnumbers.remove(3)\nprint(numbers)  # Output: [1, 2, 4]\n\n# Using pop() to delete by index\nnumbers = [1, 2, 3, 4]\nremoved_element = numbers.pop(1)\nprint(numbers)  # Output: [1, 3, 4]\nprint(removed_element)  # Output: 2\n\n# Using del to delete by index or slice\nnumbers = [1, 2, 3, 4, 5]\ndel numbers[1:3]\nprint(numbers)  # Output: [1, 4, 5]\n\n\n\n2.2.2.4 Sorting Lists\nUse sort() to sort a list in place, or sorted() to return a new sorted list.\n# Sorting a list in ascending order\nnumbers = [3, 1, 4, 1, 5]\nnumbers.sort()\nprint(numbers)  # Output: [1, 1, 3, 4, 5]\n\n# Sorting a list in descending order\nnumbers.sort(reverse=True)\nprint(numbers)  # Output: [5, 4, 3, 1, 1]\n\n# Using sorted() to return a new sorted list\nnew_numbers = sorted(numbers)\nprint(new_numbers)  # Output: [1, 1, 3, 4, 5]\n\n\n\n2.2.3 3. Tuple (tuple)\nA tuple is an ordered, immutable collection of elements. Tuples are similar to lists but cannot be modified after creation.\n# Creating and accessing tuples\ncoordinates = (10, 20)\nprint(coordinates)        # Output: (10, 20)\nprint(coordinates[0])     # Output: 10\n\n# Tuples are immutable; attempting to modify will raise an error\n# coordinates[0] = 30  # This would cause an error",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Constants and Variables in Python</span>"
+    ]
+  },
+  {
+    "objectID": "01.intro.html#mapping-data-type",
+    "href": "01.intro.html#mapping-data-type",
+    "title": "1  Constants and Variables in Python",
+    "section": "2.3 Mapping Data Type",
+    "text": "2.3 Mapping Data Type\n\n2.3.1 Dictionary (dict)\nA dictionary is a collection of key-value pairs, where each key is unique. Dictionaries are mutable, allowing for dynamic updates.\n# Dictionary example\nperson = {\"name\": \"Alice\", \"age\": 30}\nprint(person)        # Output: {'name': 'Alice', 'age': 30}\nprint(type(person))  # Output: &lt;class 'dict'&gt;\n\n2.3.1.1 Accessing Values Using Keys\nAccess values in a dictionary using keys.\n# Accessing values using keys\nname = person[\"name\"]\nage = person.get(\"age\")\nprint(name)  # Output: Alice\nprint(age)   # Output: 30\n\n\n2.3.1.2 Adding and Removing Key-Value Pairs\nYou can add new key-value pairs or remove existing ones using methods like update(), del, or pop().\n\n2.3.1.2.1 Adding Key-Value Pairs\n# Adding new key-value pairs\nperson[\"city\"] = \"New York\"\nprint(person)  # Output: {'name': 'Alice', 'age': 30, 'city': 'New York'}\n\n\n2.3.1.2.2 Removing Key-Value Pairs\n# Removing a key-value pair using pop()\nremoved_value = person.pop(\"age\")\nprint(person)        # Output: {'name': 'Alice', 'city': 'New York'}\nprint(removed_value) # Output: 30\n\n# Removing a key-value pair using del\ndel person[\"city\"]\nprint(person)  # Output: {'name': 'Alice'}",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Constants and Variables in Python</span>"
+    ]
+  },
+  {
+    "objectID": "01.intro.html#set-data-types",
+    "href": "01.intro.html#set-data-types",
+    "title": "1  Constants and Variables in Python",
+    "section": "2.4 Set Data Types",
+    "text": "2.4 Set Data Types\n\n2.4.1 Set (set)\nSets are unordered collections of unique items.\n# Set example\nnumbers = {1, 2, 3, 4}\nprint(numbers)        # Output: {1, 2, 3, 4}\nprint(type(numbers))  # Output: &lt;class 'set'&gt;",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Constants and Variables in Python</span>"
+    ]
+  },
+  {
+    "objectID": "01.intro.html#boolean-data-type",
+    "href": "01.intro.html#boolean-data-type",
+    "title": "1  Constants and Variables in Python",
+    "section": "2.5 Boolean Data Type",
+    "text": "2.5 Boolean Data Type\n\n2.5.1 Boolean (bool)\nBooleans represent one of two values: True or False.\n# Boolean example\nis_active = True\nprint(is_active)        # Output: True\nprint(type(is_active))  # Output: &lt;class 'bool'&gt;",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Constants and Variables in Python</span>"
+    ]
+  },
+  {
+    "objectID": "01.intro.html#f-string-formatting-in-python",
+    "href": "01.intro.html#f-string-formatting-in-python",
+    "title": "1  Constants and Variables in Python",
+    "section": "2.6 f-string Formatting in Python",
+    "text": "2.6 f-string Formatting in Python\nf-strings, introduced in Python 3.6, are a modern and powerful way to format strings. They offer a concise and readable syntax, allowing you to embed expressions directly inside string literals by prefixing the string with the letter f or F.\nf-strings make string formatting simpler and more intuitive compared to older methods such as % formatting or the str.format() method. They allow for inline expression evaluation, formatting of numbers, and easy manipulation of string data.\n\n2.6.1 Embedding Variables\nTo use f-strings, simply place an f before the opening quote of the string and include expressions inside curly braces {}.\n# Basic usage of f-string\nname = \"Alice\"\nage = 30\n\n# Embedding variables in a string\ngreeting = f\"Hello, {name}! You are {age} years old.\"\nprint(greeting)  # Output: Hello, Alice! You are 30 years old.\n\n\n2.6.2 Inline Expressions\nf-strings allow you to include any valid Python expression inside the curly braces.\n# Using expressions inside f-strings\nx = 10\ny = 5\n\n# Inline arithmetic expression\nresult = f\"{x} + {y} = {x + y}\"\nprint(result)  # Output: 10 + 5 = 15",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Constants and Variables in Python</span>"
+    ]
+  },
+  {
+    "objectID": "01.intro.html#advanced-formatting-with-f-strings",
+    "href": "01.intro.html#advanced-formatting-with-f-strings",
+    "title": "1  Constants and Variables in Python",
+    "section": "2.7 Advanced Formatting with f-strings",
+    "text": "2.7 Advanced Formatting with f-strings\n\n2.7.1 Number Formatting\nf-strings provide options to format numbers in various ways, such as controlling decimal places, adding commas, or displaying percentages.\n\n2.7.1.1 Formatting Floats\nYou can specify the number of decimal places by using .nf, where n is the number of decimal places.\n# Formatting a float to 2 decimal places\npi = 3.14159265358979\nformatted_pi = f\"Pi rounded to 2 decimal places: {pi:.2f}\"\nprint(formatted_pi)  # Output: Pi rounded to 2 decimal places: 3.14\n\n\n2.7.1.2 Adding Commas to Large Numbers\nUse the :, format specifier to include commas as thousand separators.\n# Adding commas to large numbers\nlarge_number = 1000000\nformatted_number = f\"The number is: {large_number:,}\"\nprint(formatted_number)  # Output: The number is: 1,000,000\n\n\n2.7.1.3 Displaying Percentages\nTo display a number as a percentage, use the % format specifier.\n# Displaying a percentage\nsuccess_rate = 0.85\nformatted_rate = f\"Success rate: {success_rate:.2%}\"\nprint(formatted_rate)  # Output: Success rate: 85.00%\n\n\n\n2.7.2 Embedding Dictionary Values\nf-strings can also be used to format values from dictionaries.\n# Formatting dictionary values\nperson = {\"name\": \"Bob\", \"age\": 40}\nformatted_string = f\"{person['name']} is {person['age']} years old.\"\nprint(formatted_string)  # Output: Bob is 40 years old.\nEnd.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Constants and Variables in Python</span>"
+    ]
+  },
+  {
+    "objectID": "02.function.html",
+    "href": "02.function.html",
+    "title": "2  Control Structures in Python",
+    "section": "",
+    "text": "2.1 Control Structures",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Control Structures in Python</span>"
+    ]
+  },
+  {
+    "objectID": "02.function.html#control-structures",
+    "href": "02.function.html#control-structures",
+    "title": "2  Control Structures in Python",
+    "section": "",
+    "text": "2.1.1 if Statement\nThe if statement is used to execute a block of code only if a specified condition is true. You can use if, elif (else if), and else to build more complex conditions.\n\n2.1.1.1 Basic if Statement\n# Basic if statement\nage = 18\nif age &gt;= 18:\n    print(\"You are an adult.\")  # Output: You are an adult.\n\n\n2.1.1.2 if-elif-else Structure\nYou can chain multiple conditions using elif and provide a default action using else.\n# if-elif-else example\nscore = 85\nif score &gt;= 90:\n    print(\"Grade: A\")\nelif score &gt;= 80:\n    print(\"Grade: B\")  # Output: Grade: B\nelif score &gt;= 70:\n    print(\"Grade: C\")\nelse:\n    print(\"Grade: F\")\n\n\n2.1.1.3 Nested if Statements\nif statements can be nested within each other to handle complex conditions.\n# Nested if statement\nnumber = 10\nif number &gt; 0:\n    print(\"Positive number\")  # Output: Positive number\n    if number % 2 == 0:\n        print(\"Even number\")  # Output: Even number\n\n\n\n2.1.2 while Loop\nThe while loop repeatedly executes a block of code as long as the specified condition is true. It is used when the number of iterations is not known in advance.\n\n2.1.2.1 Basic while Loop\n# Basic while loop\ncount = 1\nwhile count &lt;= 5:\n    print(count)  # Output: 1 2 3 4 5\n    count += 1\n\n\n2.1.2.2 while Loop with break and continue\n\nbreak: Exits the loop immediately.\ncontinue: Skips the current iteration and moves to the next one.\n\n# Using break and continue in a while loop\nnum = 0\nwhile num &lt; 10:\n    num += 1\n    if num == 5:\n        continue  # Skip the number 5\n    if num == 8:\n        break  # Exit the loop when num is 8\n    print(num)  # Output: 1 2 3 4 6 7\n\n\n\n2.1.3 for Loop\nThe for loop iterates over a sequence (such as a list, tuple, string, or range). It is used when the number of iterations is known.\n\n2.1.3.1 Basic for Loop\n# Basic for loop\nfor i in range(5):\n    print(i)  # Output: 0 1 2 3 4\n\n\n2.1.3.2 Iterating Over a List\n# Iterating over a list\nfruits = ['apple', 'banana', 'cherry']\nfor fruit in fruits:\n    print(fruit)  # Output: apple banana cherry\n\n\n2.1.3.3 for Loop with break and continue\n# Using break and continue in a for loop\nfor num in range(1, 10):\n    if num == 4:\n        continue  # Skip number 4\n    if num == 7:\n        break  # Stop the loop when num is 7\n    print(num)  # Output: 1 2 3 5 6\n\n\n\n2.1.4 Exception Handling\nException handling allows you to manage errors gracefully without crashing your program. Use try, except, else, and finally blocks to handle exceptions.\n\n2.1.4.1 Basic Exception Handling with try and except\n# Basic try-except block\ntry:\n    result = 10 / 0  # This will raise a ZeroDivisionError\nexcept ZeroDivisionError:\n    print(\"Cannot divide by zero!\")  # Output: Cannot divide by zero!\n\n\n2.1.4.2 Multiple Exceptions\nYou can handle multiple exceptions by specifying different exception types.\n# Handling multiple exceptions\ntry:\n    value = int(\"abc\")  # This will raise a ValueError\nexcept ValueError:\n    print(\"Invalid number format.\")  # Output: Invalid number format.\nexcept ZeroDivisionError:\n    print(\"Division by zero is not allowed.\")\n\n\n2.1.4.3 Using else and finally\n\nelse: Executes if no exception occurs.\nfinally: Executes no matter what, useful for cleanup actions.\n\n# Using else and finally with try-except\ntry:\n    num = 5\n    result = num / 1\nexcept ZeroDivisionError:\n    print(\"Cannot divide by zero.\")\nelse:\n    print(\"Division successful:\", result)  # Output: Division successful: 5.0\nfinally:\n    print(\"Execution complete.\")  # Output: Execution complete.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Control Structures in Python</span>"
+    ]
+  },
+  {
+    "objectID": "03.function.html",
+    "href": "03.function.html",
+    "title": "3  Functions and Packages in Python",
+    "section": "",
+    "text": "3.1 Functions in Python\nFunctions are reusable blocks of code that perform specific tasks. They help in organizing code, making it modular, readable, and easy to maintain. Python allows you to define your own functions, and it also comes with many built-in functions.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Functions and Packages in Python</span>"
+    ]
+  },
+  {
+    "objectID": "03.function.html#lambda-functions",
+    "href": "03.function.html#lambda-functions",
+    "title": "3  Functions and Packages in Python",
+    "section": "",
+    "text": "3.1.1 Basic Syntax of a Lambda Function\n# Syntax of a lambda function\n# lambda arguments: expression\n\n# Example of a lambda function to add two numbers\nadd = lambda x, y: x + y\nprint(add(3, 5))  # Output: 8\n\n\n3.1.2 Use Cases of Lambda Functions\n\nUsing with map(), filter(), and reduce(): Lambda functions are commonly used with these built-in functions for quick operations.\n\n# Using lambda with map() to square each number in a list\nnumbers = [1, 2, 3, 4]\nsquared = list(map(lambda x: x**2, numbers))\nprint(squared)  # Output: [1, 4, 9, 16]\n\nSorting by a Custom Key: You can use lambda functions as the key argument in sorting.\n\n# Sorting a list of tuples by the second element using a lambda function\npoints = [(2, 3), (1, 2), (3, 1)]\nsorted_points = sorted(points, key=lambda x: x[1])\nprint(sorted_points)  # Output: [(3, 1), (1, 2), (2, 3)]\n\n\n3.1.3 Limitations of Lambda Functions\n\nLimited to a single expression.\nLess readable for complex operations compared to regular functions.\nCannot contain statements or annotations.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Functions and Packages in Python</span>"
+    ]
+  },
+  {
+    "objectID": "03.function.html#packages",
+    "href": "03.function.html#packages",
+    "title": "3  Functions and Packages in Python",
+    "section": "3.2 Packages",
+    "text": "3.2 Packages\nA package is a collection of Python modules grouped together within a directory. Packages help organize and distribute reusable code across multiple projects. They make it easy to manage and share code.\n\n3.2.1 Importing a Package\nYou can import specific modules from a package or import the entire package.\n# Importing a specific module from a package\nfrom mypackage import module1\n\n# Importing a specific function from a module within a package\nfrom mypackage.module1 import my_function\n\n\n3.2.2 Using Standard Packages\nPython has a rich standard library with many built-in packages, such as math, os, and random. You can also install third-party packages using pip.\n# Using a function from the math package\nimport math\n\nresult = math.sqrt(16)\nprint(result)  # Output: 4.0",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Functions and Packages in Python</span>"
+    ]
+  },
+  {
+    "objectID": "03.function.html#difference-between-functions-and-methods",
+    "href": "03.function.html#difference-between-functions-and-methods",
+    "title": "3  Functions and Packages in Python",
+    "section": "3.3 Difference Between Functions and Methods",
+    "text": "3.3 Difference Between Functions and Methods\n\n3.3.1 Functions\n\nDefinition: A function is a block of reusable code that performs a specific task. It can be defined using the def keyword and can be called independently of objects.\nUsage: Functions are generally used to perform a task, and they can accept parameters and return values.\n\n# Example of a function\ndef greet(name):\n    return f\"Hello, {name}!\"\n\nprint(greet(\"Alice\"))  # Output: Hello, Alice!\n\n\n3.3.2 Methods\n\nDefinition: A method is a function that is associated with an object. It is called on an object and usually works with the data contained in that object.\nUsage: Methods are used to perform operations on objects and are called using the dot notation.\n\n# Example of a method in a class\nclass Person:\n    def __init__(self, name):\n        self.name = name\n\n    def greet(self):\n        return f\"Hello, {self.name}!\"\n\n# Creating an object and calling the greet method\nperson = Person(\"Bob\")\nprint(person.greet())  # Output: Hello, Bob!\n\n\n3.3.3 Key Differences\n\nAssociation: Functions are standalone, while methods are associated with objects.\nCalling: Functions are called directly, while methods are called on objects using dot notation.\nFirst Parameter: Methods often have self as their first parameter, referring to the object itself, whereas functions do not.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Functions and Packages in Python</span>"
+    ]
+  },
+  {
+    "objectID": "02.control.html",
+    "href": "02.control.html",
+    "title": "2  Control Structures in Python",
+    "section": "",
+    "text": "2.1 Control Structures",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Control Structures in Python</span>"
+    ]
+  },
+  {
+    "objectID": "02.control.html#control-structures",
+    "href": "02.control.html#control-structures",
+    "title": "2  Control Structures in Python",
+    "section": "",
+    "text": "2.1.1 if Statement\nThe if statement is used to execute a block of code only if a specified condition is true. You can use if, elif (else if), and else to build more complex conditions.\n\n2.1.1.1 Basic if Statement\n# Basic if statement\nage = 18\nif age &gt;= 18:\n    print(\"You are an adult.\")  # Output: You are an adult.\n\n\n2.1.1.2 if-elif-else Structure\nYou can chain multiple conditions using elif and provide a default action using else.\n# if-elif-else example\nscore = 85\nif score &gt;= 90:\n    print(\"Grade: A\")\nelif score &gt;= 80:\n    print(\"Grade: B\")  # Output: Grade: B\nelif score &gt;= 70:\n    print(\"Grade: C\")\nelse:\n    print(\"Grade: F\")\n\n\n2.1.1.3 Nested if Statements\nif statements can be nested within each other to handle complex conditions.\n# Nested if statement\nnumber = 10\nif number &gt; 0:\n    print(\"Positive number\")  # Output: Positive number\n    if number % 2 == 0:\n        print(\"Even number\")  # Output: Even number\n\n\n\n2.1.2 while Loop\nThe while loop repeatedly executes a block of code as long as the specified condition is true. It is used when the number of iterations is not known in advance.\n\n2.1.2.1 Basic while Loop\n# Basic while loop\ncount = 1\nwhile count &lt;= 5:\n    print(count)  # Output: 1 2 3 4 5\n    count += 1\n\n\n2.1.2.2 while Loop with break and continue\n\nbreak: Exits the loop immediately.\ncontinue: Skips the current iteration and moves to the next one.\n\n# Using break and continue in a while loop\nnum = 0\nwhile num &lt; 10:\n    num += 1\n    if num == 5:\n        continue  # Skip the number 5\n    if num == 8:\n        break  # Exit the loop when num is 8\n    print(num)  # Output: 1 2 3 4 6 7\n\n\n\n2.1.3 for Loop\nThe for loop iterates over a sequence (such as a list, tuple, string, or range). It is used when the number of iterations is known.\n\n2.1.3.1 Basic for Loop\n# Basic for loop\nfor i in range(5):\n    print(i)  # Output: 0 1 2 3 4\n\n\n2.1.3.2 Iterating Over a List\n# Iterating over a list\nfruits = ['apple', 'banana', 'cherry']\nfor fruit in fruits:\n    print(fruit)  # Output: apple banana cherry\n\n\n2.1.3.3 for Loop with break and continue\n# Using break and continue in a for loop\nfor num in range(1, 10):\n    if num == 4:\n        continue  # Skip number 4\n    if num == 7:\n        break  # Stop the loop when num is 7\n    print(num)  # Output: 1 2 3 5 6\n\n\n\n2.1.4 Exception Handling\nException handling allows you to manage errors gracefully without crashing your program. Use try, except, else, and finally blocks to handle exceptions.\n\n2.1.4.1 Basic Exception Handling with try and except\n# Basic try-except block\ntry:\n    result = 10 / 0  # This will raise a ZeroDivisionError\nexcept ZeroDivisionError:\n    print(\"Cannot divide by zero!\")  # Output: Cannot divide by zero!\n\n\n2.1.4.2 Multiple Exceptions\nYou can handle multiple exceptions by specifying different exception types.\n# Handling multiple exceptions\ntry:\n    value = int(\"abc\")  # This will raise a ValueError\nexcept ValueError:\n    print(\"Invalid number format.\")  # Output: Invalid number format.\nexcept ZeroDivisionError:\n    print(\"Division by zero is not allowed.\")\n\n\n2.1.4.3 Using else and finally\n\nelse: Executes if no exception occurs.\nfinally: Executes no matter what, useful for cleanup actions.\n\n# Using else and finally with try-except\ntry:\n    num = 5\n    result = num / 1\nexcept ZeroDivisionError:\n    print(\"Cannot divide by zero.\")\nelse:\n    print(\"Division successful:\", result)  # Output: Division successful: 5.0\nfinally:\n    print(\"Execution complete.\")  # Output: Execution complete.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Control Structures in Python</span>"
+    ]
+  },
+  {
+    "objectID": "04.pandas.html",
+    "href": "04.pandas.html",
+    "title": "4  Data Analysis in Python",
+    "section": "",
+    "text": "4.1 Series\nA Series is a one-dimensional array-like object provided by pandas that can hold data of any type (integers, floats, strings, Python objects, etc.). It is similar to a column in an Excel spreadsheet or a single-column DataFrame in pandas. Each element in a Series has an associated index, which is used to access individual elements.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Data Analysis in Python</span>"
+    ]
+  },
+  {
+    "objectID": "04.pandas.html#series",
+    "href": "04.pandas.html#series",
+    "title": "4  Data Analysis in Python",
+    "section": "",
+    "text": "4.1.1 Creating a Series\nYou can create a Series in pandas using various data structures such as lists, dictionaries, or NumPy arrays. You can also specify the index manually.\n\n4.1.1.1 Creating a Series from a List\nThe simplest way to create a Series is by passing a list to the pd.Series() constructor.\nimport pandas as pd\n\n# Creating a Series from a list\ndata = [10, 20, 30, 40]\nseries = pd.Series(data)\nprint(series)\nOutput:\n0    10\n1    20\n2    30\n3    40\ndtype: int64\nIn this example, the default index starts at 0 and increments by 1.\n\n\n4.1.1.2 Creating a Series with Custom Index\nYou can specify custom indices when creating a Series, making it more descriptive.\n# Creating a Series with custom indices\ndata = [100, 200, 300]\nindex = ['a', 'b', 'c']\ncustom_series = pd.Series(data, index=index)\nprint(custom_series)\nOutput:\na    100\nb    200\nc    300\ndtype: int64\n\n\n4.1.1.3 Creating a Series from a Dictionary\nYou can also create a Series from a dictionary, where keys become the indices, and values become the Series values.\n# Creating a Series from a dictionary\ndata_dict = {'apple': 50, 'banana': 30, 'cherry': 20}\nfruit_series = pd.Series(data_dict)\nprint(fruit_series)\nOutput:\napple     50\nbanana    30\ncherry    20\ndtype: int64\n\n\n\n4.1.2 Selecting Elements\nSelecting elements from a Series can be done using indexing and slicing, similar to Python lists and NumPy arrays. The indexing can be done using integer-based indexing or label-based indexing if a custom index is set.\n\n4.1.2.1 1.2.1 Accessing Single Elements\nYou can access single elements by using their index position or label.\n# Accessing elements by index position\nprint(series[0])    # Output: 10\n\n# Accessing elements by index label\nprint(custom_series['b'])  # Output: 200\n\n\n4.1.2.2 Slicing a Series\nSlicing allows you to select a range of elements from a Series.\n# Slicing using index positions\nprint(series[1:3])  # Output: \n# 1    20\n# 2    30\n# dtype: int64\n\n# Slicing using index labels\nprint(custom_series['a':'b'])  # Output:\n# a    100\n# b    200\n# dtype: int64\n\n\n\n4.1.3 Series Operations\nSeries in pandas support vectorized operations, which means you can perform operations on entire Series without writing loops. These operations are element-wise, and pandas will align data using the index.\n\n4.1.3.1 Arithmetic Operations\nYou can perform arithmetic operations like addition, subtraction, multiplication, and division directly on Series.\n# Arithmetic operations\nseries1 = pd.Series([1, 2, 3, 4])\nseries2 = pd.Series([10, 20, 30, 40])\n\n# Adding two Series\nsum_series = series1 + series2\nprint(sum_series)\n\n# Output:\n# 0    11\n# 1    22\n# 2    33\n# 3    44\n# dtype: int64\n\n\n4.1.3.2 Mathematical Functions\nYou can use mathematical functions like mean(), sum(), max(), and others on Series.\n# Using mathematical functions\nvalues = pd.Series([5, 10, 15, 20])\nprint(\"Mean:\", values.mean())   # Output: Mean: 12.5\nprint(\"Sum:\", values.sum())     # Output: Sum: 50\nprint(\"Max:\", values.max())     # Output: Max: 20\n\n\n4.1.3.3 Applying Functions with apply()\nThe apply() function allows you to apply a custom function to each element in the Series.\n# Applying a custom function to each element\ndef square(x):\n    return x * x\n\nsquared_series = values.apply(square)\nprint(squared_series)\n\n# Output:\n# 0     25\n# 1    100\n# 2    225\n# 3    400\n# dtype: int64\n\n\n4.1.3.4 Handling Missing Data\nSeries can handle missing data (NaN values), and you can manipulate these values using methods like fillna(), dropna(), and isna().\n# Series with missing values\ndata_with_nan = pd.Series([1, 2, None, 4])\nprint(data_with_nan)\n\n# Filling missing values\nfilled_series = data_with_nan.fillna(0)\nprint(filled_series)\n\n# Output:\n# 0    1.0\n# 1    2.0\n# 2    0.0\n# 3    4.0\n# dtype: float64\n\n\n\n4.1.4 Conclusion\nSeries in pandas is a powerful tool for one-dimensional data manipulation, allowing for efficient data access, arithmetic operations, and handling of missing data. Understanding Series is fundamental to working with more complex pandas data structures like DataFrames.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Data Analysis in Python</span>"
+    ]
+  },
+  {
+    "objectID": "04.pandas.html#dataframe",
+    "href": "04.pandas.html#dataframe",
+    "title": "4  Data Analysis in Python",
+    "section": "4.2 DataFrame",
+    "text": "4.2 DataFrame\nA DataFrame is a two-dimensional, size-mutable, and heterogeneous tabular data structure with labeled axes (rows and columns) in pandas. Think of it as a table of data, similar to an Excel spreadsheet or a SQL table, which can hold data of various types (strings, integers, floats, etc.).\n\n4.2.1 Creating and Modifying DataFrames\nDataFrames can be created from various sources, including lists, dictionaries, NumPy arrays, and even other pandas objects like Series.\n\n4.2.1.1 Creating a DataFrame from a Dictionary\nThe most common way to create a DataFrame is by using a dictionary, where the keys become column names, and the values are lists representing column data.\nimport pandas as pd\n\n# Creating a DataFrame from a dictionary\ndata = {\n    'Name': ['Alice', 'Bob', 'Charlie'],\n    'Age': [25, 30, 35],\n    'City': ['New York', 'Los Angeles', 'Chicago']\n}\ndf = pd.DataFrame(data)\nprint(df)\nOutput:\n      Name  Age         City\n0    Alice   25     New York\n1      Bob   30  Los Angeles\n2  Charlie   35      Chicago\n\n\n4.2.1.2 Creating a DataFrame from a List of Lists\nYou can create a DataFrame from a list of lists, specifying column names separately.\n# Creating a DataFrame from a list of lists\ndata = [\n    ['Alice', 25, 'New York'],\n    ['Bob', 30, 'Los Angeles'],\n    ['Charlie', 35, 'Chicago']\n]\ncolumns = ['Name', 'Age', 'City']\ndf = pd.DataFrame(data, columns=columns)\nprint(df)\n\n\n4.2.1.3 Creating a DataFrame from a NumPy Array\nDataFrames can also be created from NumPy arrays. You must specify column names as pandas does not infer them automatically.\nimport numpy as np\n\n# Creating a DataFrame from a NumPy array\narray_data = np.array([[1, 2], [3, 4], [5, 6]])\ndf = pd.DataFrame(array_data, columns=['Column1', 'Column2'])\nprint(df)\n\n\n4.2.1.4 Modifying a DataFrame\nYou can add, modify, or delete rows and columns in a DataFrame.\nAdding a Column:\n# Adding a new column to an existing DataFrame\ndf['Score'] = [90, 85, 88]\nprint(df)\nModifying a Column:\n# Modifying an existing column\ndf['Age'] = df['Age'] + 1\nprint(df)\nDeleting a Column:\n# Deleting a column\ndf.drop('Score', axis=1, inplace=True)\nprint(df)\n\n\n\n4.2.2 Selecting Rows and Columns\nSelecting data from a DataFrame can be done using indexing, loc, and iloc.\n\n4.2.2.1 Selecting Columns\nColumns can be selected using square brackets, dot notation, or loc.\n# Selecting a single column\nnames = df['Name']\nprint(names)\n\n# Selecting multiple columns\nsubset = df[['Name', 'City']]\nprint(subset)\n\n\n4.2.2.2 Selecting Rows\nRows can be selected by index position using iloc or by label using loc.\nUsing iloc (Index Location):\niloc selects rows and columns by integer index positions.\n# Selecting rows using iloc\nprint(df.iloc[0])  # First row\nprint(df.iloc[1:3])  # Slicing rows\nUsing loc (Label Location):\nloc selects rows and columns by label (index and column names).\n# Selecting rows using loc\ndf.set_index('Name', inplace=True)  # Setting 'Name' column as index\nprint(df.loc['Alice'])  # Select row with index 'Alice'\n\n\n\n4.2.3 Filtering Data in DataFrames\nFiltering allows you to extract specific rows based on conditions.\nFiltering Rows Based on Conditions:\n# Filtering rows where Age &gt; 30\nfiltered_df = df[df['Age'] &gt; 30]\nprint(filtered_df)\n\n\n4.2.4 Adding and Removing Rows\nYou can add rows to a DataFrame using the append() method and remove rows using drop().\n\n4.2.4.1 Adding Rows\n# Adding a new row using append()\nnew_row = pd.DataFrame([['David', 28, 'Seattle']], columns=['Name', 'Age', 'City'])\ndf = df.append(new_row, ignore_index=True)\nprint(df)\n\n\n4.2.4.2 Removing Rows\n# Removing rows by index\ndf = df.drop(0)  # Removes the first row\nprint(df)\n\n\n\n4.2.5 Handling Missing Data in DataFrames\nHandling missing data is essential for clean and accurate data analysis.\n\n4.2.5.1 Identifying Missing Data\n# Checking for missing data\nprint(df.isna())  # Returns a DataFrame of booleans\nprint(df.isna().sum())  # Sum of missing values in each column\n\n\n4.2.5.2 Filling Missing Data\nYou can fill missing data with a specific value, such as 0 or the mean of the column.\n# Filling missing values with a specified value\ndf['Age'].fillna(df['Age'].mean(), inplace=True)\n\n\n4.2.5.3 Dropping Missing Data\nRemove rows or columns that contain missing values.\n# Dropping rows with missing values\ndf.dropna(inplace=True)\n\n\n\n4.2.6 Sorting Data in DataFrames\nSorting can be performed based on one or multiple columns using the sort_values() method.\n# Sorting DataFrame by a column\nsorted_df = df.sort_values(by='Age', ascending=False)\nprint(sorted_df)\n\n\n4.2.7 Grouping Data\nGrouping data is useful for performing aggregate operations on subsets of data.\n# Grouping by a column and calculating the mean\ngrouped = df.groupby('City').mean()\nprint(grouped)\n\n\n4.2.8 Merging DataFrames\nMerging combines multiple DataFrames into one, similar to SQL JOIN operations.\n\n4.2.8.1 Using merge()\n# Merging two DataFrames on a common column\ndf1 = pd.DataFrame({'Name': ['Alice', 'Bob'], 'Score': [85, 90]})\ndf2 = pd.DataFrame({'Name': ['Alice', 'Bob'], 'Grade': ['A', 'B']})\nmerged_df = pd.merge(df1, df2, on='Name')\nprint(merged_df)\n\n\n4.2.8.2 Using concat()\n# Concatenating DataFrames vertically\ndf3 = pd.concat([df1, df2], axis=0)\nprint(df3)\n\n\n\n4.2.9 Exporting DataFrames\nYou can export DataFrames to various file formats, including CSV, Excel, and JSON.\n# Saving DataFrame to a CSV file\ndf.to_csv('output.csv', index=False)\n\n# Saving DataFrame to an Excel file\ndf.to_excel('output.xlsx', index=False)\n\n\n4.2.10 Conclusion\nDataFrames in pandas are versatile and powerful for handling tabular data in Python. They provide robust functionality for data manipulation, cleaning, and analysis, making them an essential tool for data scientists and analysts.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Data Analysis in Python</span>"
+    ]
+  },
+  {
+    "objectID": "04.pandas.html#loading-and-saving-data",
+    "href": "04.pandas.html#loading-and-saving-data",
+    "title": "4  Data Analysis in Python",
+    "section": "4.3 Loading and Saving Data",
+    "text": "4.3 Loading and Saving Data\nPandas provides powerful methods to load data from various file formats and save it back after manipulation. Common formats include CSV, Excel, JSON, and SQL databases.\n\n4.3.1 Loading Data\nPandas offers various functions to read data from external sources into DataFrames, allowing for quick data analysis and manipulation.\n\n4.3.1.1 Reading CSV Files\nThe read_csv() function reads data from a CSV file into a DataFrame. This is one of the most common methods to import data.\nimport pandas as pd\n\n# Reading a CSV file into a DataFrame\ndf = pd.read_csv('data.csv')\nprint(df.head())  # Display the first 5 rows\n\n\n4.3.1.2 Reading Excel Files\nTo read Excel files, use the read_excel() function. You can specify the sheet name if the Excel file contains multiple sheets.\n# Reading data from an Excel file\ndf = pd.read_excel('data.xlsx', sheet_name='Sheet1')\nprint(df.head())\n\n\n4.3.1.3 Reading JSON Files\nJSON files can be read using the read_json() function. JSON is commonly used for data exchange between systems.\n# Reading data from a JSON file\ndf = pd.read_json('data.json')\nprint(df.head())\n\n\n\n4.3.2 Saving Data\nOnce you have manipulated your data, you can save it back to your preferred format using pandas functions.\n\n4.3.2.1 Saving to CSV\nThe to_csv() function saves the DataFrame to a CSV file. You can choose whether to include the index or not.\n# Saving DataFrame to a CSV file\ndf.to_csv('output.csv', index=False)\n\n\n4.3.2.2 Saving to Excel\nTo save data to an Excel file, use the to_excel() function. You can also specify the sheet name.\n# Saving DataFrame to an Excel file\ndf.to_excel('output.xlsx', index=False, sheet_name='Results')\n\n\n4.3.2.3 Saving to JSON\nYou can save data to JSON format using the to_json() function, which is useful for data interchange between applications.\n# Saving DataFrame to a JSON file\ndf.to_json('output.json')",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Data Analysis in Python</span>"
+    ]
+  },
+  {
+    "objectID": "04.pandas.html#exploring-summary-information-and-statistical-values",
+    "href": "04.pandas.html#exploring-summary-information-and-statistical-values",
+    "title": "4  Data Analysis in Python",
+    "section": "4.4 Exploring Summary Information and Statistical Values",
+    "text": "4.4 Exploring Summary Information and Statistical Values\nExploring data is an essential step in understanding the structure, distribution, and characteristics of your dataset. Pandas provides several methods to inspect and summarize DataFrames.\n\n4.4.1 Viewing Basic Information\nThe info() method provides a concise summary of the DataFrame, including the index, column names, non-null counts, and data types.\n# Viewing basic information about the DataFrame\nprint(df.info())\n\n\n4.4.2 Viewing Statistical Summaries\nThe describe() method generates descriptive statistics that summarize the central tendency, dispersion, and shape of the data distribution, excluding NaN values.\n# Viewing statistical summary of numerical columns\nprint(df.describe())\nYou can also include non-numerical data by specifying include='all'.\n# Including all columns, including non-numeric\nprint(df.describe(include='all'))\n\n\n4.4.3 Counting Unique Values\nThe value_counts() function counts the unique values in a column, which is particularly useful for categorical data.\n# Counting unique values in a column\nprint(df['City'].value_counts())\n\n\n4.4.4 Displaying First and Last Rows\nYou can use head() and tail() to view the first and last few rows of the DataFrame.\n# Displaying the first 5 rows\nprint(df.head())\n\n# Displaying the last 5 rows\nprint(df.tail())",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Data Analysis in Python</span>"
+    ]
+  },
+  {
+    "objectID": "04.pandas.html#handling-missing-data-1",
+    "href": "04.pandas.html#handling-missing-data-1",
+    "title": "4  Data Analysis in Python",
+    "section": "4.5 Handling Missing Data",
+    "text": "4.5 Handling Missing Data\nHandling missing data is a crucial aspect of data cleaning, as missing values can lead to incorrect analysis results.\n\n4.5.1 Identifying Missing Data\nUse isna() or isnull() to detect missing values. These methods return a DataFrame of booleans indicating the presence of missing values.\n# Identifying missing data\nprint(df.isna())\n\n# Counting missing values in each column\nprint(df.isna().sum())\n\n\n4.5.2 Removing Missing Data\nYou can remove rows or columns with missing values using the dropna() method.\n# Dropping rows with any missing values\ndf_cleaned = df.dropna()\n\n# Dropping columns with missing values\ndf_cleaned = df.dropna(axis=1)\n\n\n4.5.3 Filling Missing Data\nInstead of dropping missing data, you can fill it with specified values using fillna(). Common strategies include filling with zeros, the mean, or forward/backward filling.\n# Filling missing values with a specified value\ndf['Age'].fillna(0, inplace=True)\n\n# Filling missing values with the column mean\ndf['Age'].fillna(df['Age'].mean(), inplace=True)\n\n# Forward filling missing values\ndf.fillna(method='ffill', inplace=True)",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Data Analysis in Python</span>"
+    ]
+  },
+  {
+    "objectID": "04.pandas.html#working-with-indices",
+    "href": "04.pandas.html#working-with-indices",
+    "title": "4  Data Analysis in Python",
+    "section": "4.6 Working with Indices",
+    "text": "4.6 Working with Indices\nThe index of a DataFrame is used to uniquely identify rows. Managing indices effectively allows for more efficient data manipulation and retrieval.\n\n4.6.1 Setting and Resetting Index\nYou can set a column as the index using set_index() and reset it back to the default integer index using reset_index().\n# Setting 'Name' as the index\ndf.set_index('Name', inplace=True)\nprint(df)\n\n# Resetting the index to default\ndf.reset_index(inplace=True)\nprint(df)\n\n\n4.6.2 Sorting by Index\nThe sort_index() method sorts the DataFrame by its index.\n# Sorting the DataFrame by index\ndf.sort_index(inplace=True)\nprint(df)\n\n\n4.6.3 Changing the Index Name\nYou can rename the index by assigning a new name directly.\n# Renaming the index\ndf.index.name = 'Person'\nprint(df)",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Data Analysis in Python</span>"
+    ]
+  },
+  {
+    "objectID": "04.pandas.html#filtering-data",
+    "href": "04.pandas.html#filtering-data",
+    "title": "4  Data Analysis in Python",
+    "section": "4.7 Filtering Data",
+    "text": "4.7 Filtering Data\nFiltering allows you to select rows based on specific conditions, enabling targeted analysis and manipulation.\n\n4.7.1 Boolean Indexing\nBoolean indexing uses conditional statements to filter data.\n# Filtering rows where Age &gt; 30\nfiltered_df = df[df['Age'] &gt; 30]\nprint(filtered_df)\n\n\n4.7.2 Using isin() Method\nThe isin() method filters rows based on multiple values in a column.\n# Filtering rows where Name is Alice or Bob\nfiltered_df = df[df['Name'].isin(['Alice', 'Bob'])]\nprint(filtered_df)\n\n\n4.7.3 Filtering with Multiple Conditions\nYou can combine multiple conditions using & (and) or | (or).\n# Filtering with multiple conditions\nfiltered_df = df[(df['Age'] &gt; 30) & (df['City'] == 'Chicago')]\nprint(filtered_df)",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Data Analysis in Python</span>"
+    ]
+  },
+  {
+    "objectID": "04.pandas.html#merging-dataframes-1",
+    "href": "04.pandas.html#merging-dataframes-1",
+    "title": "4  Data Analysis in Python",
+    "section": "4.8 Merging DataFrames",
+    "text": "4.8 Merging DataFrames\nMerging DataFrames is an essential operation when working with multiple datasets that need to be combined. Pandas offers several functions for merging, joining, and concatenating DataFrames.\n\n4.8.1 Using concat() Function\nThe concat() function concatenates DataFrames along rows (default) or columns. It is useful when you have DataFrames with the same columns and want to stack them.\nimport pandas as pd\n\n# Creating sample DataFrames\ndf1 = pd.DataFrame({'Name': ['Alice', 'Bob'], 'Age': [25, 30]})\ndf2 = pd.DataFrame({'Name': ['Charlie', 'David'], 'Age': [35, 40]})\n\n# Concatenating DataFrames vertically\ndf_concat = pd.concat([df1, df2], ignore_index=True)\nprint(df_concat)\n\n# Output:\n#       Name  Age\n# 0    Alice   25\n# 1      Bob   30\n# 2  Charlie   35\n# 3    David   40\nYou can also concatenate DataFrames horizontally by specifying axis=1.\n# Concatenating DataFrames horizontally\ndf_concat_horizontal = pd.concat([df1, df2], axis=1)\nprint(df_concat_horizontal)\n\n\n4.8.2 Using merge() Function\nThe merge() function combines two DataFrames based on a key column or index. It works similarly to SQL JOIN operations (inner, outer, left, right).\n# Creating sample DataFrames for merging\ndf1 = pd.DataFrame({'Name': ['Alice', 'Bob'], 'Score': [85, 90]})\ndf2 = pd.DataFrame({'Name': ['Alice', 'Bob'], 'Grade': ['A', 'B']})\n\n# Merging DataFrames on the 'Name' column\ndf_merged = pd.merge(df1, df2, on='Name', how='inner')\nprint(df_merged)\n\n# Output:\n#     Name  Score Grade\n# 0  Alice     85     A\n# 1    Bob     90     B\n\n\n4.8.3 Using join() Function\nThe join() function is used to join two DataFrames based on their indices. It is particularly useful for merging DataFrames with overlapping indices.\n# Creating sample DataFrames with indices\ndf1 = pd.DataFrame({'Score': [85, 90]}, index=['Alice', 'Bob'])\ndf2 = pd.DataFrame({'Grade': ['A', 'B']}, index=['Alice', 'Bob'])\n\n# Joining DataFrames on indices\ndf_joined = df1.join(df2)\nprint(df_joined)\n\n# Output:\n#        Score Grade\n# Alice     85     A\n# Bob       90     B",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Data Analysis in Python</span>"
+    ]
+  },
+  {
+    "objectID": "04.pandas.html#reshaping-data",
+    "href": "04.pandas.html#reshaping-data",
+    "title": "4  Data Analysis in Python",
+    "section": "4.9 Reshaping Data",
+    "text": "4.9 Reshaping Data\nReshaping allows you to change the layout of a DataFrame, making it suitable for different types of analysis.\n\n4.9.1 Using melt() Function\nThe melt() function unpivots a DataFrame from a wide format to a long format, making it easier to analyze and visualize.\n# Creating a sample DataFrame\ndf = pd.DataFrame({\n    'Name': ['Alice', 'Bob'],\n    'Math': [90, 80],\n    'Science': [85, 95]\n})\n\n# Melting the DataFrame\ndf_melted = pd.melt(df, id_vars=['Name'], value_vars=['Math', 'Science'], \n                    var_name='Subject', value_name='Score')\nprint(df_melted)\n\n# Output:\n#     Name  Subject  Score\n# 0  Alice     Math     90\n# 1    Bob     Math     80\n# 2  Alice  Science     85\n# 3    Bob  Science     95\n\n\n4.9.2 Using pivot_table() Function\nThe pivot_table() function reshapes data by creating a new summary table, which is useful for aggregating data.\n# Creating a DataFrame for pivoting\ndf = pd.DataFrame({\n    'Name': ['Alice', 'Bob', 'Alice', 'Bob'],\n    'Subject': ['Math', 'Math', 'Science', 'Science'],\n    'Score': [90, 80, 85, 95]\n})\n\n# Pivoting the DataFrame\ndf_pivot = df.pivot_table(values='Score', index='Name', columns='Subject', \n                          aggfunc='mean')\nprint(df_pivot)\n\n# Output:\n# Subject  Math  Science\n# Name                  \n# Alice      90       85\n# Bob        80       95\n\n\n4.9.3 Using stack() and unstack()\nstack() compresses columns into rows, while unstack() does the opposite, expanding rows into columns.\n# Stacking and unstacking a DataFrame\ndf = pd.DataFrame({\n    'A': [1, 2],\n    'B': [3, 4]\n}, index=['X', 'Y'])\n\n# Stacking the DataFrame\nstacked = df.stack()\nprint(stacked)\n\n# Unstacking the stacked DataFrame\nunstacked = stacked.unstack()\nprint(unstacked)",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Data Analysis in Python</span>"
+    ]
+  },
+  {
+    "objectID": "04.pandas.html#applying-functions-to-dataframes",
+    "href": "04.pandas.html#applying-functions-to-dataframes",
+    "title": "4  Data Analysis in Python",
+    "section": "4.10 Applying Functions to DataFrames",
+    "text": "4.10 Applying Functions to DataFrames\nApplying functions to DataFrames allows you to transform data easily, using built-in or custom functions.\n\n4.10.1 Applying Functions to Series\nThe apply() function applies a function along an axis of the DataFrame.\n# Creating a sample DataFrame\ndf = pd.DataFrame({\n    'A': [1, 2, 3],\n    'B': [4, 5, 6]\n})\n\n# Applying a function to each column\ndf_squared = df.apply(lambda x: x ** 2)\nprint(df_squared)\n\n# Output:\n#    A   B\n# 0  1  16\n# 1  4  25\n# 2  9  36\n\n\n4.10.2 Applying Functions to Entire DataFrames\nThe applymap() function applies a function to each element of the DataFrame.\n# Applying a function to each element\ndf_negated = df.applymap(lambda x: -x)\nprint(df_negated)\n\n# Output:\n#    A  B\n# 0 -1 -4\n# 1 -2 -5\n# 2 -3 -6",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Data Analysis in Python</span>"
+    ]
+  },
+  {
+    "objectID": "04.pandas.html#group-operations",
+    "href": "04.pandas.html#group-operations",
+    "title": "4  Data Analysis in Python",
+    "section": "4.11 Group Operations",
+    "text": "4.11 Group Operations\nGrouping data allows you to perform operations like aggregation, transformation, and filtering on subsets of your data.\n\n4.11.1 Splitting Data into Groups\nThe groupby() function groups data based on one or more columns.\n# Creating a sample DataFrame\ndf = pd.DataFrame({\n    'Name': ['Alice', 'Bob', 'Alice', 'Bob'],\n    'Subject': ['Math', 'Math', 'Science', 'Science'],\n    'Score': [90, 80, 85, 95]\n})\n\n# Grouping by 'Name'\ngrouped = df.groupby('Name')\nprint(grouped.mean())\n\n# Output:\n#        Score\n# Name        \n# Alice   87.5\n# Bob     87.5\n\n\n4.11.2 Performing Aggregations on Groups\nCommon aggregations include mean(), sum(), count(), and max().\n# Aggregating grouped data\nagg_df = grouped.agg({'Score': ['mean', 'sum']})\nprint(agg_df)\n\n# Output:\n#        Score      \n#         mean  sum\n# Name              \n# Alice   87.5  175\n# Bob     87.5  175",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Data Analysis in Python</span>"
+    ]
+  },
+  {
+    "objectID": "04.pandas.html#working-with-time-series-data",
+    "href": "04.pandas.html#working-with-time-series-data",
+    "title": "4  Data Analysis in Python",
+    "section": "4.12 Working with Time Series Data",
+    "text": "4.12 Working with Time Series Data\nPandas provides extensive functionality for time series data, allowing for date manipulation, resampling, and time-based indexing.\n\n4.12.1 Creating Time Series Data\nTime series data can be created using pd.date_range() to generate a range of dates.\n# Creating a time series DataFrame\ndate_rng = pd.date_range(start='2023-01-01', end='2023-01-10', freq='D')\ndf = pd.DataFrame(date_rng, columns=['Date'])\ndf['Data'] = range(10)\nprint(df)\n\n# Output:\n#         Date  Data\n# 0 2023-01-01     0\n# 1 2023-01-02     1\n# 2 2023-01-03     2\n# ...            ...\n# 9 2023-01-10     9\n\n\n4.12.2 Resampling Time Series Data\nThe resample() function allows for changing the frequency of time series data, such as converting daily data to monthly.\n# Creating a time series DataFrame with hourly data\ndate_rng = pd.date_range(start='2023-01-01', end='2023-01-02', freq='H')\ndf = pd.DataFrame(date_rng, columns=['Date'])\ndf['Data'] = range(len(df))\n\n# Resampling to daily data\ndf.set_index('Date', inplace=True)\nresampled_df = df.resample('D').sum()\nprint(resampled_df)",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Data Analysis in Python</span>"
+    ]
+  },
+  {
+    "objectID": "03.function.html#functions-in-python",
+    "href": "03.function.html#functions-in-python",
+    "title": "3  Functions and Packages in Python",
+    "section": "",
+    "text": "3.1.1 What is a Function?\nA function is a block of organized, reusable code that is used to perform a single, related action. Functions provide better modularity for your application and allow code reuse.\n\n3.1.1.1 Key Points:\n\nModularity: Functions divide complex problems into smaller, manageable tasks.\nReusability: Functions allow the code to be used repeatedly without rewriting.\nReadability: Well-defined functions make the code clearer and easier to understand.\n\n\n\n\n3.1.2 Defining a Function\nFunctions are defined using the def keyword, followed by the function name and parentheses () containing any parameters. The function body is indented and contains the code that runs when the function is called.\n\n3.1.2.1 Basic Syntax\n# Defining a simple function\ndef function_name(parameters):\n    \"\"\"\n    Optional docstring describing the function.\n    \"\"\"\n    # Function body\n    # Code to execute\n    return value  # Optional return statement\n\n\n3.1.2.2 Example of a Simple Function\n# A function to add two numbers\ndef add(a, b):\n    return a + b\n\n# Calling the function\nresult = add(3, 5)\nprint(result)  # Output: 8\n\n\n\n3.1.3 Function Parameters and Arguments\n\n3.1.3.1 Positional Arguments\nArguments passed to a function in the order they are defined.\n# Function with positional arguments\ndef greet(name, message):\n    print(f\"{message}, {name}!\")\n\ngreet(\"Alice\", \"Hello\")  # Output: Hello, Alice!\n\n\n3.1.3.2 Default Arguments\nDefault arguments allow parameters to have default values, which are used if no argument is provided.\n# Function with default arguments\ndef greet(name, message=\"Hello\"):\n    print(f\"{message}, {name}!\")\n\ngreet(\"Bob\")           # Output: Hello, Bob!\ngreet(\"Charlie\", \"Hi\") # Output: Hi, Charlie!\n\n\n3.1.3.3 Keyword Arguments\nKeyword arguments are passed by explicitly specifying the parameter names, allowing you to change the order of arguments.\n# Function with keyword arguments\ndef describe_pet(animal_type, pet_name):\n    print(f\"I have a {animal_type} named {pet_name}.\")\n\ndescribe_pet(pet_name=\"Max\", animal_type=\"dog\")  # Output: I have a dog named Max.\n\n\n3.1.3.4 Variable-Length Arguments (*args and **kwargs)\n\n*args allows a function to accept any number of positional arguments, which are passed as a tuple.\n**kwargs allows a function to accept any number of keyword arguments, which are passed as a dictionary.\n\n# Using *args\ndef sum_all(*args):\n    return sum(args)\n\nprint(sum_all(1, 2, 3, 4))  # Output: 10\n\n# Using **kwargs\ndef print_info(**kwargs):\n    for key, value in kwargs.items():\n        print(f\"{key}: {value}\")\n\nprint_info(name=\"Alice\", age=30)  \n# Output:\n# name: Alice\n# age: 30\n\n\n\n3.1.4 Return Statement\nThe return statement is used to exit a function and return a value. If no return statement is used, the function will return None by default.\n# Function with a return statement\ndef square(x):\n    return x * x\n\nresult = square(5)\nprint(result)  # Output: 25\n\n\n3.1.5 Lambda Functions\nA lambda function is a small, anonymous function defined using the lambda keyword. Lambda functions can have any number of arguments but only one expression. They are often used for short, simple operations that are used once or as arguments to other functions.\n\n3.1.5.1 Basic Syntax of a Lambda Function\n# Syntax of a lambda function\n# lambda arguments: expression\n\n# Example of a lambda function to add two numbers\nadd = lambda x, y: x + y\nprint(add(3, 5))  # Output: 8\n\n\n3.1.5.2 Use Cases of Lambda Functions\n\nUsing with map(), filter(), and reduce(): Lambda functions are commonly used with these built-in functions for quick operations.\n\n# Using lambda with map() to square each number in a list\nnumbers = [1, 2, 3, 4]\nsquared = list(map(lambda x: x**2, numbers))\nprint(squared)  # Output: [1, 4, 9, 16]\n\nSorting by a Custom Key: You can use lambda functions as the key argument in sorting.\n\n# Sorting a list of tuples by the second element using a lambda function\npoints = [(2, 3), (1, 2), (3, 1)]\nsorted_points = sorted(points, key=lambda x: x[1])\nprint(sorted_points)  # Output: [(3, 1), (1, 2), (2, 3)]\n\n\n3.1.5.3 Limitations of Lambda Functions\n\nLimited to a single expression.\nLess readable for complex operations compared to regular functions.\nCannot contain statements or annotations.\n\n\n\n\n3.1.6 Scope and Lifetime of Variables\nVariables defined inside a function are local to that function and cannot be accessed outside. Variables defined outside functions are global.\n# Scope example\ndef my_function():\n    local_var = \"I am local\"\n    print(local_var)\n\nmy_function()            # Output: I am local\n# print(local_var)       # This would raise an error: NameError\n\n\n3.1.7 Docstrings\nDocstrings are used to document functions. They provide a way to describe what the function does, its parameters, and its return value.\n# Function with a docstring\ndef multiply(a, b):\n    \"\"\"\n    Multiply two numbers.\n\n    Parameters:\n    a (int or float): The first number.\n    b (int or float): The second number.\n\n    Returns:\n    int or float: The product of a and b.\n    \"\"\"\n    return a * b\n\nhelp(multiply)  # This will display the function's docstring",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Functions and Packages in Python</span>"
+    ]
+  },
+  {
+    "objectID": "00.setup.html",
+    "href": "00.setup.html",
+    "title": "1  Setting Up Environment",
+    "section": "",
+    "text": "1.1 Setting Up VSCode for Data Analysis\nVisual Studio Code (VSCode) is a free, open-source code editor developed by Microsoft. It supports multiple programming languages, extensions, and integrations, making it an excellent choice for data analysis.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Setting Up Environment</span>"
+    ]
+  },
+  {
+    "objectID": "00.setup.html#setting-up-vscode-and-google-colab-for-data-analysis",
+    "href": "00.setup.html#setting-up-vscode-and-google-colab-for-data-analysis",
+    "title": "1  Setting Up Environment",
+    "section": "",
+    "text": "1.1.1 Setting Up VSCode for Data Analysis\nVisual Studio Code (VSCode) is a free, open-source code editor developed by Microsoft. It supports multiple programming languages, extensions, and integrations, making it an excellent choice for data analysis.\n\n1.1.1.1 Installing VSCode\n\nDownload VSCode: Visit the VSCode official website and download the installer for your operating system (Windows, macOS, or Linux).\nInstall VSCode: Run the installer and follow the installation instructions.\n\n\n\n1.1.1.2 Setting Up Python in VSCode\n\nInstall Python: Ensure Python is installed on your system. You can download it from the official Python website.\nInstall Python Extension for VSCode:\n\nOpen VSCode and go to the Extensions view by clicking on the Extensions icon in the sidebar or pressing Ctrl+Shift+X.\nSearch for “Python” and install the extension provided by Microsoft.\n\nVerify Python Installation:\n\nOpen a terminal in VSCode (`Ctrl+``) and type:\npython --version\nYou should see the installed Python version. If not, check your installation path.\n\nSet Up a Virtual Environment (Optional but recommended):\n\nCreate a virtual environment to manage dependencies for your project:\npython -m venv myenv\nActivate the virtual environment:\n\nWindows: myenv\\Scripts\\activate\nmacOS/Linux: source myenv/bin/activate\n\n\nInstall Essential Libraries:\n\nUse pip to install essential libraries like pandas, NumPy, and matplotlib:\npip install pandas numpy matplotlib seaborn\n\nCreate a Python File:\n\nOpen a new file, save it with a .py extension, and write your first Python code. For example:\nimport pandas as pd\nimport numpy as np\n\n# Create a simple DataFrame\ndata = {'Name': ['Alice', 'Bob', 'Charlie'], 'Age': [25, 30, 35]}\ndf = pd.DataFrame(data)\n\nprint(df)\n\nRunning Python Code:\n\nRun the code by clicking the “Run” button at the top right or by pressing F5.\n\n\n\n\n1.1.1.3 Additional Tips\n\nJupyter Notebook in VSCode: You can also use Jupyter notebooks within VSCode by installing the Jupyter extension.\nLinting and Formatting: Use extensions like Pylint or Black to maintain code quality.\n\n\n\n\n1.1.2 Setting Up Google Colab for Data Analysis\nGoogle Colab is a free, cloud-based platform that provides Jupyter Notebook environments. It allows you to write and execute Python code in your browser, making it a great tool for data analysis, especially when dealing with large datasets and GPU-based computations.\n\n1.1.2.1 Getting Started with Google Colab\n\nAccess Google Colab:\n\nGo to Google Colab using your Google account.\n\nCreating a New Notebook:\n\nClick on “New Notebook” to create a new notebook. This will open a new page with a code cell ready to run.\n\n\n\n\nGoogle Colab New Notebook\n\n\nInstalling and Importing Libraries:\n\nUse pip to install any additional libraries you need directly within a cell:\n# Install pandas and numpy\n!pip install pandas numpy\n\nWriting and Running Code:\n\nWrite your code in the code cells and run it by clicking the play button on the left side of the cell or pressing Shift+Enter.\nimport pandas as pd\nimport numpy as np\n\n# Creating a DataFrame\ndata = {'Product': ['Apples', 'Bananas', 'Cherries'], 'Price': [1.2, 0.8, 2.5]}\ndf = pd.DataFrame(data)\n\n# Displaying the DataFrame\nprint(df)\n\n\n\n\n1.1.2.2 Uploading Files and Connecting to Google Drive\n\nUploading Files: You can upload files directly to the Colab environment by using the file upload button on the left sidebar.\nConnecting to Google Drive: If you have data stored on Google Drive, you can easily access it by mounting your drive.\nfrom google.colab import drive\ndrive.mount('/content/drive')\nThis code will prompt you to authorize access to your Google Drive.\n\n\n\n1.1.2.3 Using GPU or TPU for Accelerated Computing\nGoogle Colab allows you to use GPUs or TPUs to speed up your computations, especially useful for machine learning tasks.\n\nChanging Runtime Type:\n\nGo to Runtime &gt; Change runtime type.\nSelect “GPU” or “TPU” under “Hardware accelerator” and click “Save”.\n\n\n\n\n1.1.2.4 Saving and Exporting Your Work\n\nSaving Notebooks: Colab automatically saves your work to Google Drive, but you can also save a copy manually by selecting File &gt; Save a copy in Drive.\nExporting Notebooks: You can download your notebook as a .ipynb or .py file by selecting File &gt; Download.\n\n\n\n\n1.1.3 Summary\n\nVSCode is great for local development with rich support for extensions, virtual environments, and debugging.\nGoogle Colab is ideal for cloud-based development, especially when you need quick access to computational resources like GPUs and TPUs.\n\nBoth environments are powerful tools for data analysis, and the choice depends on your specific needs and workflow preferences.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Setting Up Environment</span>"
+    ]
+  },
+  {
+    "objectID": "00.setup.html#setting-up-vscode-for-data-analysis",
+    "href": "00.setup.html#setting-up-vscode-for-data-analysis",
+    "title": "1  Setting Up Environment",
+    "section": "",
+    "text": "1.1.1 Installing VSCode\n\nDownload VSCode: Visit the VSCode official website and download the installer for your operating system (Windows, macOS, or Linux).\nInstall VSCode: Run the installer and follow the installation instructions.\n\n\n\n1.1.2 Setting Up Python in VSCode\n\nInstall Python: Ensure Python is installed on your system. You can download it from the official Python website.\nInstall Python Extension for VSCode:\n\nOpen VSCode and go to the Extensions view by clicking on the Extensions icon in the sidebar or pressing Ctrl+Shift+X.\nSearch for “Python” and install the extension provided by Microsoft.\n\nVerify Python Installation:\n\nOpen a terminal in VSCode (`Ctrl+``) and type:\npython --version\nYou should see the installed Python version. If not, check your installation path.\n\nSet Up a Virtual Environment (Optional but recommended):\n\nCreate a virtual environment to manage dependencies for your project:\npython -m venv myenv\nActivate the virtual environment:\n\nWindows: myenv\\Scripts\\activate\nmacOS/Linux: source myenv/bin/activate\n\n\nInstall Essential Libraries:\n\nUse pip to install essential libraries like pandas, NumPy, and matplotlib:\npip install pandas numpy matplotlib seaborn\n\nCreate a Python File:\n\nOpen a new file, save it with a .py extension, and write your first Python code. For example:\nimport pandas as pd\nimport numpy as np\n\n# Create a simple DataFrame\ndata = {'Name': ['Alice', 'Bob', 'Charlie'], 'Age': [25, 30, 35]}\ndf = pd.DataFrame(data)\n\nprint(df)\n\nRunning Python Code:\n\nRun the code by clicking the “Run” button at the top right or by pressing F5.\n\n\n\n\n1.1.3 Additional Tips\n\nJupyter Notebook in VSCode: You can also use Jupyter notebooks within VSCode by installing the Jupyter extension.\nLinting and Formatting: Use extensions like Pylint or Black to maintain code quality.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Setting Up Environment</span>"
+    ]
+  },
+  {
+    "objectID": "00.setup.html#setting-up-google-colab-for-data-analysis",
+    "href": "00.setup.html#setting-up-google-colab-for-data-analysis",
+    "title": "1  Setting Up Environment",
+    "section": "1.2 Setting Up Google Colab for Data Analysis",
+    "text": "1.2 Setting Up Google Colab for Data Analysis\nGoogle Colab is a free, cloud-based platform that provides Jupyter Notebook environments. It allows you to write and execute Python code in your browser, making it a great tool for data analysis, especially when dealing with large datasets and GPU-based computations.\n\n1.2.1 Getting Started with Google Colab\n\nAccess Google Colab:\n\nGo to Google Colab using your Google account.\n\nCreating a New Notebook:\n\nClick on “New Notebook” to create a new notebook. This will open a new page with a code cell ready to run.\n\nInstalling and Importing Libraries:\n\nUse pip to install any additional libraries you need directly within a cell:\n# Install pandas and numpy\n!pip install pandas numpy\n\nWriting and Running Code:\n\nWrite your code in the code cells and run it by clicking the play button on the left side of the cell or pressing Shift+Enter.\nimport pandas as pd\nimport numpy as np\n\n# Creating a DataFrame\ndata = {'Product': ['Apples', 'Bananas', 'Cherries'], 'Price': [1.2, 0.8, 2.5]}\ndf = pd.DataFrame(data)\n\n# Displaying the DataFrame\nprint(df)\n\n\n\n\n1.2.2 Uploading Files and Connecting to Google Drive\n\nUploading Files: You can upload files directly to the Colab environment by using the file upload button on the left sidebar.\nConnecting to Google Drive: If you have data stored on Google Drive, you can easily access it by mounting your drive.\nfrom google.colab import drive\ndrive.mount('/content/drive')\nThis code will prompt you to authorize access to your Google Drive.\n\n\n\n1.2.3 Using GPU or TPU for Accelerated Computing\nGoogle Colab allows you to use GPUs or TPUs to speed up your computations, especially useful for machine learning tasks.\n\nChanging Runtime Type:\n\nGo to Runtime &gt; Change runtime type.\nSelect “GPU” or “TPU” under “Hardware accelerator” and click “Save”.\n\n\n\n\n1.2.4 Saving and Exporting Your Work\n\nSaving Notebooks: Colab automatically saves your work to Google Drive, but you can also save a copy manually by selecting File &gt; Save a copy in Drive.\nExporting Notebooks: You can download your notebook as a .ipynb or .py file by selecting File &gt; Download.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Setting Up Environment</span>"
+    ]
+  },
+  {
+    "objectID": "00.setup.html#summary",
+    "href": "00.setup.html#summary",
+    "title": "1  Setting Up Environment",
+    "section": "1.3 Summary",
+    "text": "1.3 Summary\n\nVSCode is great for local development with rich support for extensions, virtual environments, and debugging.\nGoogle Colab is ideal for cloud-based development, especially when you need quick access to computational resources like GPUs and TPUs.\n\nBoth environments are powerful tools for data analysis, and the choice depends on your specific needs and workflow preferences.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Setting Up Environment</span>"
+    ]
+  }
+]
